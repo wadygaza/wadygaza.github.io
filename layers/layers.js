@@ -57,3 +57,4 @@ lyr_STR_2.set('fieldLabels', {'OBJECTID': 'no label', 'TYPE': 'no label', 'STRCA
 lyr_STR_2.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
+console.log(done);
